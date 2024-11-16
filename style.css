@@ -1,0 +1,72 @@
+body {
+    padding-top: 56px;
+    background-color: #FCEDE8;
+    color: #333333;
+    
+    }
+    
+
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #053a72;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #555555;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+.form-control {
+    border-radius: 6px;
+    padding: 0.8rem;
+    border: 1px solid #000000;
+}
+
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(5, 58, 114, 0.3);
+}
+
+.btn-primary {
+    background-color: #053a72;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    color: #FCEDE8;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+    background-color: #053a72;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
